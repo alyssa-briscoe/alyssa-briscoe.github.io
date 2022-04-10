@@ -5,6 +5,7 @@
   background-color:cadetblue;
   align-items:center;
   line-height:0.25;
+  word-wrap: break-word;
 }
 h1{
     text-align:center;
