@@ -2,20 +2,21 @@
 
 * {
   box-sizing: border-box;
-  background-color:cadetblue;
-  align-items:center;
-  line-height:1;
+  background-color: cadetblue;
+  align-items: center;
+  line-height: 1;
 }
+
 h1{
-    text-align:center;
+    text-align: center;
     font-size: 116px;
-    color:darkslategray;
+    color: darkslategray;
 }
 
 p{
   text-align: center;
   font-size: 3vw;
-  color:white;
+  color: white;
   
 }
 
@@ -111,7 +112,7 @@ ul {
   top: 0;
   width: 100%;
   position:relative;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 li {
