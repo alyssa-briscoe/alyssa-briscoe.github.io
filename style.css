@@ -108,7 +108,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: darkslategray;
+  background-color: transparent;
   top: 0;
   width: 100%;
   position:relative;
