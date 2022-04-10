@@ -4,7 +4,7 @@
   box-sizing: border-box;
   background-color:cadetblue;
   align-items:center;
-  line-height:1;
+  line-height:0.25;
   word-wrap: break-word;
 }
 h1{
@@ -116,7 +116,7 @@ ul {
 
 li {
   float: left;
-  border-right: 1px solid darkslategray;
+  border-radius: 1px solid darkslategray;
 }
 
 li:last-child {
@@ -126,8 +126,28 @@ li:last-child {
 li a {
   display: block;
   color: white;
-  background-color:darkslategray;
+  background-color: transparent;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: darkslategray;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: aquamarine;
+}
+
+/* selected link */
+a:active {
+  color: aquamarine;
 }
