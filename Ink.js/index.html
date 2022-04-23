@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" as="font" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -21,5 +23,45 @@
 <div id="story" class="container">
     <script src="ink.js"></script>
     <script src="main.js"></script></div>
+
+<center><button id= "soundon" onclick="soundON(); changeButton1();" style="display: block">Sound On</button></center><center><button id= "soundoff" onclick="soundOFF(); changeButton2();" style="display: none"> Sound Off </button></center>
+        
+        <script>
+        var x = document.createElement("AUDIO");
+            function soundON() {
+              
+              if (x.canPlayType("audio/mpeg")) {
+                x.setAttribute("src","noir.mp3");
+              }
+
+              x.setAttribute("autoplay", "loop");
+              document.body.appendChild(x);
+              x.loop=true;
+            }
+
+  function soundOFF() {
+                
+            x.pause();
+
+              }
+
+              function changeButton1(){
+
+                    document.getElementById("soundon").style.display = 'none';
+                    document.getElementById("soundoff").style.display = 'block';
+
+              }
+
+              function changeButton2(){
+
+                document.getElementById("soundon").style.display = 'block';
+                document.getElementById("soundoff").style.display = 'none'; 
+
+}
+              </script>
+
+
+
+
 </body>
 </html>

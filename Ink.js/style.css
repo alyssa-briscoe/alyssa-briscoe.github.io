@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@font-face {
+  font-family: 'Inconsolata';
+  src: url(Inconsolata-ExtraLight.ttf);
+}
+
 
 body {
     font-family: 'Inconsolata', monospace;
@@ -7,8 +11,21 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
-    background-size: 100%;
+    background-size:cover;
     
+}
+
+button{
+  display: inline;
+  align-content: center;
+  justify-content: center;
+  background-color: transparent;
+  padding: 10pt;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 28pt;
+  border-color: white;
+
 }
 
 h1 {
@@ -16,7 +33,7 @@ h1 {
     font-weight: lighter;
     color: white;
     font-size: 50pt;
-    padding: 5%;
+    padding: 0;
 }
 
 .wrapper {
