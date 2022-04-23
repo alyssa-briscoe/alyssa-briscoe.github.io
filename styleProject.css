@@ -92,7 +92,7 @@ a:active {
   color: aquamarine;
 }
 
-.button {
+button.button {
     border: none;
     color: white;
     padding: 10%;
@@ -108,7 +108,7 @@ a:active {
 
   }
   
-  .button1 {
+  button.button1 {
     background-color: cadetblue;
     background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size:cover;
@@ -118,12 +118,12 @@ a:active {
     align-self:center;
   }
   
-  .button1:hover {
+  button.button1:hover {
     background-color: aquamarine;
     color: black;
   }
   
-  .button2 {
+  button.button2 {
     background-color: cadetblue; 
     color: white; 
     border: 2px solid darkslategray;
@@ -133,31 +133,31 @@ a:active {
     background-repeat: no-repeat;
   }
   
-  .button2:hover {
+  button.button2:hover {
     background-color: transparent;
     color: white;
   }
 
-  .button3 {
+  button.button3 {
         background-color: cadetblue; 
         color: white; 
         border: 2px solid darkslategray;
         align-self: center;
       }
       
-      .button3:hover {
+      button.button3:hover {
         background-color: aquamarine;
         color: white;
   }
 
-  .button4 {
+  button.button4 {
     background-color: cadetblue; 
     color: white; 
     border: 2px solid darkslategray;
     align-self: center;
   }
   
-  .button4:hover {
+  button.button4:hover {
     background-color: aquamarine;
     color: white;
   }
