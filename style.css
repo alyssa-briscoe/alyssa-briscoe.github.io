@@ -83,22 +83,18 @@ body {
   }
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background:cadetblue; 
 }
  
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: darkslategray; 
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background:white; 
 }
@@ -134,22 +130,18 @@ li a {
   text-decoration: none;
 }
 
-/* unvisited link */
 a:link {
   color: darkslategray;
 }
 
-/* visited link */
 a:visited {
   color: white;
 }
 
-/* mouse over link */
 a:hover {
   color: aquamarine;
 }
 
-/* selected link */
 a:active {
   color: aquamarine;
 }
