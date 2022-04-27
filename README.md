@@ -1,5 +1,5 @@
 # alyssa-briscoe.github.io
-<center>
+
 # Alyssa Briscoe 
 
 ## Web Developer
@@ -14,4 +14,4 @@
 **Powered By:**
 ![Intel 6700k](https://img.shields.io/badge/Intel%20Core_i7_6th-0071C5?style=for-the-badge&logo=intel&logoColor=white)![RTX 2060](https://img.shields.io/badge/NVIDIA-RTX2060-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
-</center>
+
