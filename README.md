@@ -1,6 +1,6 @@
 <h1 align ="center">  Alyssa Briscoe </h1>
 
-<h2 align="center">  Web Developer </h2>
+<h2 align="center"> 💻 Web Developer </h2>
  
 <div align= "center">
  
