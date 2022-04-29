@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  background-color:cadetblue;
+  background-color:68B0AB;
   line-height:1;
   word-wrap: break-word;
   max-width:100vw;
@@ -11,20 +11,20 @@ h1{
     text-align:center;
     justify-content: center;
     font-size: 116px;
-    color:darkslategray;
+    color:C8D5B9;
 }
 
 h2{
     text-align: center;
     font-size: 2vw;
-    color: white;
+    color: FAF3DD;
     font-weight: bold;
 }
 
 p{
   text-align: center;
   font-size: 3vw;
-  color:white;
+  color:FAF3DD;
  
 }
 
@@ -40,15 +40,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background:cadetblue; 
+  background:8FC0A9; 
 }
  
 ::-webkit-scrollbar-thumb {
-  background: darkslategray; 
+  background: C8D5B9; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background:white; 
+  background:FAF3DD; 
 }
 
 ul {
@@ -75,7 +75,7 @@ li:last-child {
 
 li a {
   display: block;
-  color: white;
+  color: FAF3DD;
   background-color: transparent;
   text-align: center;
   padding: 14px 16px;
@@ -83,17 +83,17 @@ li a {
 }
 
 a:link {
-  color: darkslategray;
+  color: C8D5B9;
 }
 
 a:visited {
-  color: darkslategray;
+  color: FAF3DD;
 }
 
 a:hover {
-  color: aquamarine;
+  color: 8FC0A9;
 }
 
 a:active {
-  color: aquamarine;
+  color: 8FC0A9;
 }

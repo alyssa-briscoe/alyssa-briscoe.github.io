@@ -2,21 +2,22 @@
 
 * {
   box-sizing: border-box;
-  background-color:cadetblue;
+  background-color: 68B0AB;
   align-items:center;
   line-height:1;
   word-wrap: break-word;
 }
+
 h1{
     text-align:center;
     font-size: 116px;
-    color:darkslategray;
+    color:C8D5B9;
 }
 
 p{
   text-align: center;
   font-size: 3vw;
-  color:white;
+  color:FAF3DD;
  
 }
 
@@ -36,7 +37,8 @@ body {
 
 .container {
   display: flex;
-  width: 90vw;
+  width: 100vw;
+
 }
 
 .panel {
@@ -44,8 +46,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 60vh;
-  border-radius: 50px;
-  color: #fff;
+  border-radius: 100px;
+  border-color: 8FC0A9;
+  border-style:solid;
+  color: FAF3DD;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
@@ -88,15 +92,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background:cadetblue; 
+  background:8FC0A9; 
 }
  
 ::-webkit-scrollbar-thumb {
-  background: darkslategray; 
+  background: C8D5B9; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background:white; 
+  background: FAF3DD; 
 }
 
 ul {
@@ -123,7 +127,7 @@ li:last-child {
 
 li a {
   display: block;
-  color: white;
+  color:FAF3DD;
   background-color: transparent;
   text-align: center;
   padding: 14px 16px;
@@ -131,17 +135,26 @@ li a {
 }
 
 a:link {
-  color: darkslategray;
+  color: C8D5B9;
 }
 
 a:visited {
-  color: white;
+  color: FAF3DD;
 }
 
 a:hover {
-  color: aquamarine;
+  color: 8FC0A9;
 }
 
 a:active {
-  color: aquamarine;
+  color: 8FC0A9;
+}
+
+/*68B0AB, 8FC0A9, C8D5B9, FAF3DD */
+
+div.tooltip{
+  text-align: center;
+  font-size: 3vw;
+  color:FAF3DD;
+
 }

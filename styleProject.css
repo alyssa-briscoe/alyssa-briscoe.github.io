@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  background-color:cadetblue;
+  background-color:68B0AB;
   line-height:1;
   word-wrap: break-word;
   
@@ -17,7 +17,7 @@ h1{
 p{
   text-align: center;
   font-size: 3vw;
-  color:white;
+  color:FAF3DD;
  
 }
 
@@ -33,15 +33,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background:cadetblue; 
+  background:8FC0A9; 
 }
  
 ::-webkit-scrollbar-thumb {
-  background: darkslategray; 
+  background: C8D5B9; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background:white; 
+  background:FAF3DD; 
 }
 
 ul {
@@ -68,7 +68,7 @@ li:last-child {
 
 li a {
   display: block;
-  color: white;
+  color: FAF3DD;
   background-color: transparent;
   text-align: center;
   padding: 14px 16px;
@@ -76,57 +76,58 @@ li a {
 }
 
 a:link {
-  color: darkslategray;
+  color: C8D5B9;
   background-color: transparent;
 }
 
 a:visited {
-  color: darkslategray;
+  color: FAF3DD;
 }
 
 a:hover {
-  color: aquamarine;
+  color: 8FC0A9;
 }
 
 a:active {
-  color: aquamarine;
+  color:  8FC0A9;
 }
 
-button.button {
+button {
     border: none;
-    color: white;
+    color: FAF3DD;
     padding: 10%;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 0;
     transition-duration: 0.4s;
     cursor: pointer;
-    justify-content:center;
+    justify-content:left;
     border-radius: 12px;
 
   }
   
   button.button1 {
-    background-color: cadetblue;
+    background-color: 8FC0A9;
     background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size:cover;
     background-repeat: no-repeat;
-    color: white; 
-    border: 2px solid darkslategray;
-    align-self:center;
+    color: FAF3DD; 
+    border: 2px solid 68B0AB;
+    text-align: left;
+      ;
   }
   
   button.button1:hover {
-    background-color: aquamarine;
+    background-color: C8D5B9;
     color: black;
   }
   
   button.button2 {
-    background-color: cadetblue; 
-    color: white; 
-    border: 2px solid darkslategray;
+    background-color: 8FC0A9; 
+    color: FAF3DD; 
+    border: 2px solid 68B0AB;
     align-self: center;
     background-image: url("https://images.unsplash.com/photo-1511954404553-67ad24c63441?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
     background-size:cover;
@@ -135,29 +136,29 @@ button.button {
   
   button.button2:hover {
     background-color: transparent;
-    color: white;
+    color: FAF3DD;
   }
 
   button.button3 {
-        background-color: cadetblue; 
-        color: white; 
-        border: 2px solid darkslategray;
-        align-self: center;
+        background-color: 8FC0A9; 
+        color: FAF3DD; 
+        border: 2px solid 68B0AB;
+        
       }
       
       button.button3:hover {
-        background-color: aquamarine;
-        color: white;
+        background-color: C8D5B9;
+        color: FAF3DD;
   }
 
   button.button4 {
-    background-color: cadetblue; 
-    color: white; 
-    border: 2px solid darkslategray;
-    align-self: center;
+    background-color: 8FC0A9; 
+    color: FAF3DD; 
+    border: 2px solid 68B0AB;
+    
   }
   
   button.button4:hover {
-    background-color: aquamarine;
-    color: white;
+    background-color: C8D5B9;
+    color: FAF3DD;
   }
