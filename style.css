@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  background-color: 68B0AB;
+  background-color: #68B0AB;
   align-items:center;
   line-height:1;
   word-wrap: break-word;
@@ -17,7 +17,7 @@ h1{
 p{
   text-align: center;
   font-size: 3vw;
-  color:FAF3DD;
+  color: #FAF3DD;
  
 }
 
@@ -49,7 +49,7 @@ body {
   border-radius: 100px;
   border-color: 8FC0A9;
   border-style:solid;
-  color: FAF3DD;
+  color: #FAF3DD;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
@@ -92,15 +92,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background:8FC0A9; 
+  background:#8FC0A9; 
 }
  
 ::-webkit-scrollbar-thumb {
-  background: C8D5B9; 
+  background: #C8D5B9; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: FAF3DD; 
+  background: #FAF3DD; 
 }
 
 ul {
@@ -135,19 +135,19 @@ li a {
 }
 
 a:link {
-  color: C8D5B9;
+  color: #C8D5B9;
 }
 
 a:visited {
-  color: FAF3DD;
+  color: #FAF3DD;
 }
 
 a:hover {
-  color: 8FC0A9;
+  color: #8FC0A9;
 }
 
 a:active {
-  color: 8FC0A9;
+  color: #8FC0A9;
 }
 
 /*68B0AB, 8FC0A9, C8D5B9, FAF3DD */
@@ -155,6 +155,6 @@ a:active {
 div.tooltip{
   text-align: center;
   font-size: 3vw;
-  color:FAF3DD;
+  color:#FAF3DD;
 
 }
