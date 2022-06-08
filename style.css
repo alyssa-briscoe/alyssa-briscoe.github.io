@@ -15,21 +15,21 @@ body {
     position: relative;
     top: 6px;
     left: 6px;
-    background-color: #ff3b47;
-    border-color: #9d252b;
+    background-color: #e90e95;
+    border-color: #5a063a;
     display: inline-block;
   }
   
   .fakeMinimize {
     left: 11px;
-    background-color: #ffc100;
-    border-color: #9d802c;
+    background-color: #14b9a3;
+    border-color:#0c6e61;
   }
   
   .fakeZoom {
     left: 16px;
-    background-color: #00d742;
-    border-color: #049931;
+    background-color: #9f15c9;
+    border-color: #3e094e;
   }
   
   .fakeMenu {
