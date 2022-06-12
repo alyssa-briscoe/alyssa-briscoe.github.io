@@ -2,7 +2,7 @@
 
 body {
     background-color: #272727;
-    padding: 10px;
+    padding: 100px;
   }
   
   .fakeButtons {
@@ -236,6 +236,27 @@ body {
 
   }
 
+  div#column1 {
+    float:left;
+    padding: 10px;
+
+  }
+
+  div#column2 {
+    float: left;
+    padding: 10px;
+  }
+
+  div#row {
+    display: table;
+
+  }
+
+  div#links{
+    padding: 20px;
+    font-size: 4vw;
+    word-spacing: 20px;
+  }
   ::-webkit-scrollbar {
       display: none;
   }
