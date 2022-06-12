@@ -2,7 +2,7 @@
 
 body {
     background-color: #272727;
-    padding: 100px;
+    padding: 10px;
     overflow: hidden;
     
   }
@@ -60,7 +60,7 @@ body {
     font-size: 1.25em;
     font-family: monospace;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: auto;
     width: 0;
   }
   
@@ -203,25 +203,25 @@ body {
   
   @-webkit-keyframes type {
     to {
-      width: 17em;
+      width: 21em;
     }
   }
   
   @-moz-keyframes type {
     to {
-      width: 17em;
+      width: 21em;
     }
   }
   
   @-o-keyframes type {
     to {
-      width: 17em;
+      width: 21em;
     }
   }
   
   @keyframes type {
     to {
-      width: 17em;
+      width: 22em;
     }
   }
 
@@ -231,7 +231,7 @@ body {
   }
 
  div.text {
-      padding: 50px;
+      padding: 10px;
       color: white;
       font-family: 'Kdam Thmor Pro', sans-serif;
       opacity: 0.8;
